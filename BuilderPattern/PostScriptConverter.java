@@ -1,4 +1,4 @@
-public class PostScriptConverter extends Converter{
+public class PostScriptConverter implements Converter{
 
     public String makeLine(){
         return "makeLine PostScript";

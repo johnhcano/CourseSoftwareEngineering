@@ -1,4 +1,4 @@
-public class ASCIIConverter extends Converter{
+public class ASCIIConverter implements Converter{
 
     public String makeLine(){
         return "makeLine ASCII";
