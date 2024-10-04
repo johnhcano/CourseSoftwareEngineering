@@ -1,7 +1,5 @@
 public class Operario extends Trabajador {
     
-    private int id;
-    private String nombre;
     private double horas;
     private final double VALOR_HORA = 5500.0;
 

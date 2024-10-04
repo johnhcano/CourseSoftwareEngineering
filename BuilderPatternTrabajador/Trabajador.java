@@ -1,6 +1,6 @@
 public class Trabajador {
     
-    public double pago(){
+    public double pagar(){
         return 0.0;
     }
     
