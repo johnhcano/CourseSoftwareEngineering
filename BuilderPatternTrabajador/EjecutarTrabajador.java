@@ -8,7 +8,6 @@ public class EjecutarTrabajador {
     Trabajador objT2 = new Operario(192);
     Trabajador objT3 = new Gerente(12000000.0);
 
-    Nomina objNomina1 = new Nomina(objT1);
 
     Trabajador[] t = new Trabajador[3];
 
@@ -16,6 +15,9 @@ public class EjecutarTrabajador {
     t[1] = objT2;
     t[2] = objT3;
 
-    objNomina1.generarPagos(t);
+    Nomina objNomina1 = new Nomina(t);
+
+    objNomina1.generarPagos();
+
     }
 }
