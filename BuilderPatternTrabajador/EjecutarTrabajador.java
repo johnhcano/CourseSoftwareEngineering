@@ -1,16 +1,21 @@
 public class EjecutarTrabajador {
     
+    public static void main(String[] args) {
+        
     //Creación de los objetos
-    Trabajador[] t = new Trabajador[3];
 
-    Trabajador objT1 = new Consultor(1.25, 3000000.0);
+    Trabajador objT1 = new Consultor(0.25, 3000000.0);
     Trabajador objT2 = new Operario(192);
     Trabajador objT3 = new Gerente(12000000.0);
 
-    Nomina objNomina1 = new Nomina(1, "Juan", objT1);
-    Nomina objNomina2 = new Nomina(2, "Pedro", objT2);
-    Nomina objNomina3 = new Nomina(3, "Judas", objT3);
+    Nomina objNomina1 = new Nomina(objT1);
 
-    
+    Trabajador[] t = new Trabajador[3];
 
+    t[0] = objT1;
+    t[1] = objT2;
+    t[2] = objT3;
+
+    objNomina1.generarPagos(t);
+    }
 }
