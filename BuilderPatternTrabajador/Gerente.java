@@ -2,9 +2,7 @@ public class Gerente extends Trabajador{
     
     private double salarioIntegral;
 
-    public Gerente(int id, String nombre, double salarioIntegral){
-        this.id = id;
-        this.nombre = nombre;
+    public Gerente(double salarioIntegral){
         this.salarioIntegral = salarioIntegral;
     }
 

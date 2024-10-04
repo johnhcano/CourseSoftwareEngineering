@@ -3,9 +3,7 @@ public class Consultor extends Trabajador {
     private double comision;
     private double venta;
 
-    public Consultor(int id, String nombre, double comision, double venta){
-        this.id = id;
-        this.nombre = nombre;
+    public Consultor(double comision, double venta){
         this.comision = comision;
         this.venta = venta;
     }
