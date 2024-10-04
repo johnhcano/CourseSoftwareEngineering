@@ -1,4 +1,4 @@
-public class Gerente {
+public class Gerente extends Trabajador{
     
     private int id;
     private String nombre;
