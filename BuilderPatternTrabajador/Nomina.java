@@ -9,6 +9,9 @@ public class Nomina {
         this.nombre = nombre;
         this.trabajador = trabajador;
     }
+
+    public Nomina(){
+    }
     
     public void generarPagos(Trabajador[] t){
         for(int i = 0; i < t.length; i++){
