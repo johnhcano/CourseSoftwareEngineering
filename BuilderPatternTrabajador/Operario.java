@@ -1,7 +1,7 @@
 public class Operario extends Trabajador {
     
     private double horas;
-    private final double VALOR_HORA = 5500.0;
+    private final double VALOR_HORA = 5500.0; //Constante
 
     public Operario(double horas){
         this.horas = horas;
