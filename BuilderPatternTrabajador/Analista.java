@@ -10,7 +10,7 @@ public class Analista extends Trabajador {
     }
 
     public double pagar(){
-        return salarioIntegral * (lineasCodigo * VALOR_LINEA_JAVA);
+        return salarioIntegral + (lineasCodigo * VALOR_LINEA_JAVA);
     }
     
 }
