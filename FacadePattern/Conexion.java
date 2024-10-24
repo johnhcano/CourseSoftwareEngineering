@@ -10,7 +10,7 @@ public class Conexion {
         this.cadenaConexion = cadenaConexion;
     }
 
-    public boolean conectar(String u, String p, String bd){
+    public boolean conectar(String u, String p, String puerto){
         boolean flag = false;
         if(this.user.equals(u) && this.pass.equals(p)){
             flag = true;
