@@ -6,6 +6,10 @@ public class EjecutarFacade {
 
         Conexion objConexionOracle;
         objConexionOracle = new Oracle("scoot", "tiger", "apex", "8080");
+
+        Proyecto objProyecto1 = new Proyecto("Flask", 1, objConexionMySQL);
+
+        Proyecto objPoryecto2 = new Proyecto("Aplicación Web", 10, objConexionOracle);
     }
     
 }
